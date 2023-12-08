@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+}
+
+body {
+  background-color: #ffffff;
+}
+h1 {
+  margin-top: 50px;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.container-tudo {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 45px;
+}
+
+.container-tudo table {
+  border: 5px solid black;
+  border-radius: 12px;
+  padding: 25px;
+  width: 600px;
+  animation: troca-borda2 5s infinite alternate;
+}
+.botoes button {
+  width: 300px;
+  height: 70px;
+  background-color: white;
+  border: 3px solid green;
+  border-radius: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+.botoes button:hover{
+  scale: 1.15;
+  transition: 0.5s;
+  background-color: green;
+  border-color: white;
+  color: white;
+  border-radius: 30px;
+  animation: troca-borda 1s infinite alternate;
+}
+
+@keyframes troca-borda {
+  0%{
+    border-color: green;
+  }
+  100%{
+    border-color: white;
+  }
+}
+
+@keyframes troca-borda2 {
+  0%{
+    border-color: #00DC00;
+  }
+  25%{
+    border-color: #FFDC00;
+  }
+  50%{
+    border-color: #0000DC;
+  }
+  75%{
+    border-color: #DC0000;
+  }
+  100%{
+    border-color: #000000;
+  }
+}
+@keyframes troca-color {
+  0%{
+    color: #00DC00;
+  }
+  25%{
+    color: #FFDC00;
+  }
+  50%{
+    color: #0000DC;
+  }
+  75%{
+    color: #DC0000;
+  }
+  100%{
+    color: #000000;
+  }
+}

@@ -1,0 +1,7 @@
+Nome:Gabriel Oliveira Sá
+RM: 23077
+Curso: INFONET
+Período: Noite
+
+De todo o trabalho ao meu ver a parte mais difícil foi tentar resolver o código com a falta do "update.php" que não foi apresentado em aula
+por isso foi utilizado no lugar o "insert.php", então quando se quer atualizar um código ele cria um código novo e não sobrepõe o outro
